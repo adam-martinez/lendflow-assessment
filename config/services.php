@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'nyt' => [
+        'url' => env('NYT_URL', 'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json'),
+        'key' => env('NYT_KEY'),
+    ],
+
 ];
